@@ -26,7 +26,11 @@ public class TestController {
         String world = "world";
         return "Hello world people";
     }
-
+  @RequestMapping("/world")
+    public String test(){
+      
+        return "Hello world";
+    }
 
 
 
