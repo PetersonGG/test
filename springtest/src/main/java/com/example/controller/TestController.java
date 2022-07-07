@@ -22,6 +22,7 @@ public class TestController {
 
     @RequestMapping("/hello")
     public String test(){
+        String hello = "hello";
         String world = "world";
         return "Hello world people";
     }
