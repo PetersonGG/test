@@ -27,7 +27,7 @@ public class TestController {
         return "Hello world people";
     }
   @RequestMapping("/world")
-    public String test(){
+    public String world(){
       
         return "Hello world";
     }
