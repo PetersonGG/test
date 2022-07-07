@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "myuser",
+      "type": "com.example.bean.User",
+      "sourceType": "com.example.bean.User"
+    },
+    {
+      "name": "student",
+      "type": "com.example.bean.Student",
+      "sourceType": "com.example.bean.Student"
+    }
+  ],
+  "properties": [
+    {
+      "name": "myuser.address",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bean.User"
+    },
+    {
+      "name": "myuser.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.bean.User"
+    },
+    {
+      "name": "myuser.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bean.User"
+    },
+    {
+      "name": "student.address",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bean.Student"
+    },
+    {
+      "name": "student.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.bean.Student"
+    },
+    {
+      "name": "student.name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.bean.Student"
+    }
+  ],
+  "hints": []
+}
