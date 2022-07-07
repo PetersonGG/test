@@ -20,6 +20,11 @@ public class TestController {
         return user;
     }
 
+    @RequestMapping("/hello")
+    public String test(){
+        return "Hello world";
+    }
+
 
 
 
